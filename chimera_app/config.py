@@ -29,38 +29,8 @@ UPLOADS_DIR = os.path.join(context.CACHE_HOME, 'chimera', 'uploads')
 MANGOHUD_DIR = context.CONFIG_HOME + "/MangoHud"
 
 PLATFORMS = {
-    "32x":         "32X",
-    "3do":         "3DO",
     "appimage":    "AppImage",
-    "arcade":      "Arcade",
-    "atari-2600":  "Atari 2600",
-    "atari-7800":  "Atari 7800",
-    "dreamcast":   "Dreamcast",
-    "epic-store":  "Epic Games Store",
-    "flathub":     "Flathub",
-    "gb":          "Game Boy",
-    "gba":         "Game Boy Advance",
-    "gbc":         "Game Boy Color",
-    "ngc":         "GameCube",
-    "sgg":         "Game Gear",
-    "genesis":     "Genesis",
-    "gog":         "GOG",
-    "jaguar":      "Jaguar",
-    "sms":         "Master System",
-    "nds":         "Nintendo DS",
-    "neo-geo":     "Neo Geo",
-    "nes":         "Nintendo",
-    "n64":         "Nintendo 64",
-    "ps1":         "PlayStation",
-    "ps2":         "PlayStation 2",
-    "psp":         "PlayStation Portable",
-    "saturn":      "Saturn",
-    "sega-cd":     "Sega CD",
-    "sgb":         "Super Game Boy",
-    "snes":        "Super Nintendo",
-    "snesmsu1":    "Super Nintendo MSU1",
-    "tg-16":       "TurboGrafx-16",
-    "wii":         "Wii"
+    "flathub":     "Flathub"
 }
 
 SETTINGS_DEFAULT = {
